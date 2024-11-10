@@ -49,6 +49,5 @@ public class LocationService extends Service {
         return null;
     }
 }
-
 ```
 
