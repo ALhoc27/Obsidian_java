@@ -20,7 +20,7 @@ class Биология,Химия internal-link;
 
 $$\begin{vmatrix}a & b\\ c & d \end{vmatrix}=ad-bc+dc$$
 
-
+11111111111111111111111111111111
 
 [^1]: ![[Снимок экрана 2024-11-11 в 00.46.31.png]]
 	qdeqldnqkdqnqdqld
