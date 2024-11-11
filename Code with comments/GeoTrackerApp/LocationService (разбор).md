@@ -1,2 +1,0 @@
-- [[LocationService (разбор)#Объявление класса `LocationService`]]
-- 

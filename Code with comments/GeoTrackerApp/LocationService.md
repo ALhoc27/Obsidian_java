@@ -1,3 +1,4 @@
+[[LocationService_0x]]
 ```java
 public class LocationService extends Service {
 
@@ -51,3 +52,4 @@ public class LocationService extends Service {
 }
 ```
 
+[[getNotification()]] - метод `getNotification()`, чтобы сервис мог корректно работать в foreground режиме, отображая постоянное уведомление с информацией о работе приложения.
