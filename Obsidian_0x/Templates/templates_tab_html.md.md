@@ -1,6 +1,6 @@
 <table class="language-java_td" style="width: 99%; border-collapse: collapse; margin-bottom: 5px;">
 	<tr>
-		<strong style="font-size: 1.1em; color: #333;">Пример 1:</strong>
+		<strong style="font-size: 1.1em; color: #333;">Пример :</strong>
     </tr>
     <tr>
         <td style="padding: 5px 10px; border: 1px solid #ddd; background-color: #f2efed">
@@ -88,27 +88,9 @@ class Main {
     </tr>
 </table>
 
-###### Подробнее <span style="border: 1px solid black; padding: 2px; line-height: 1.75;">#1</span>:<br/>
- &nbsp;🔴 - Метод `compareTo` для строк сравнивает их лексикографически (помещая строку "меньше", если она идет раньше в алфавите).
- &nbsp;🟠 -
- &nbsp;🟤 -
- &nbsp;🟣 -
- &nbsp;🔵 -
- &nbsp;🟡 -
- &nbsp;🟢 -
- &nbsp;⚪️ -
- &nbsp;⚫️ -
+###### Подробнее <span style="border: 1px solid black; padding: 2px; line-height: 1.75;">#1</span>: &nbsp; <br/>
 
-###### Подробнее <span style="border: 1px solid black; padding: 2px; line-height: 1.75;">#2</span>:<br/>
- &nbsp;🔴 - Метод `compareTo` для строк сравнивает их лексикографически (помещая строку "меньше", если она идет раньше в алфавите).
- &nbsp;🟠 -
- &nbsp;🟤 -
- &nbsp;🟣 -
- &nbsp;🔵 -
- &nbsp;🟡 -
- &nbsp;🟢 -
- &nbsp;⚪️ -
- &nbsp;⚫️ -
+###### Подробнее <span style="border: 1px solid black; padding: 2px; line-height: 1.75;">#2</span>: &nbsp; <br/>
 
 
 

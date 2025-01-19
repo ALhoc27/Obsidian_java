@@ -2,7 +2,7 @@
     width: 100%; 
     border-collapse: collapse; 
     font-family: Arial, sans-serif; 
-    font-size: 13px; 
+    font-size: 15px; 
     text-align: left; 
     margin: 20px 5px; 
     padding: 5px 5px; 

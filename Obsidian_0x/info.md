@@ -647,6 +647,12 @@ public int compareTo(Student other) {
 
 
 
+<dir class="jcode" style="font-family: Consolas, monospace; font-size: 1rem; background-color: #f4f4f4; color: #333; padding: 1em; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); white-space: pre-wrap; word-wrap: break-word; margin: 0;"> // Пример кода на Java">
+#### Основное:
+- Используется для естественной сортировки объектов.
+- Сортировка определяется самим объектом, который реализует интерфейс.
+- Метод: <code>compareTo(T o)</code> — **это единственный метод интерфейса** `Comparable` в Java, который используется для определения "естественного порядка" объектов. Он позволяет сравнивать текущий объект (`this`) с другим объектом (`o`) одного и того же типа `T`.
+</dir>
 
 
 

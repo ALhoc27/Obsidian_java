@@ -2,14 +2,13 @@
 >Метод не учитывает локаль
 >
 >*Например:*
-><code class="language-java language-java_td" style="font-family: 'Courier New', monospace; padding: 0px 5px; margin: 0px;">
-> System; // false
-></code>
 >Если требуется 
-> <pre style="background-color: #f4f4f4; color: #f8f8f8; margin: 0px; padding-top: 10px !important; padding-right: 10px !important; padding-bottom: 0px !important; padding-left: 10px !important; border-radius: 5px; font-size: 0.9em; overflow-x: auto;">
-> <code class="language-java language-java_td" style="font-family: 'Courier New', monospace; padding: 0px ; margin: 0px;">
-> import java.text.Collator;
-> import java.util.Locale;
-> </code>
-> </pre>
+>
+>```java
+Class＜Integer＞ intClass = int.class; 
+System.out.println(intClass.getName()); // int
+>```
 > Если требуется  `Collator`:
+
+
+

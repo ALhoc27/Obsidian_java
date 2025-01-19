@@ -1,3 +1,4 @@
+[[Find (info)]]
 <dir style="
     width: 100%; 
     border-collapse: collapse; 
@@ -16,8 +17,9 @@
 <strong>&nbsp;- Путь для java лекций:</strong> <code>path:"Obsidian_Java/Java/Learn Java/Учебный материал"</code><br><strong>&nbsp;- Class && Interface:</strong> &nbsp; &nbsp; &nbsp; <code>path:"Obsidian_Java/Java/Сlass && Interface"</code></dir>
 
 
-- [[Сlass && Interface]]
-- [[java.lang.Comparable]]
-- [[java.util.Collections]]
-- [[java.util.Comparator]]
-- [[java.util.stream.Collectors]]
+[[Сlass && Interface]]
+[[java.lang.Comparable]]
+[[java.util.Collections]]
+[[java.util.Comparator]]
+[[java.util.stream.Collectors]]
+
