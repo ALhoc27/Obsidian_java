@@ -44,11 +44,10 @@
 ">
 <strong>&nbsp;- Путь для java лекций:</strong> <code>path:"Obsidian_Java/Java/Learn Java/Учебный материал"</code><br><strong>&nbsp;- Class && Interface:</strong> &nbsp; &nbsp; &nbsp; <code>path:"Obsidian_Java/Java/Сlass && Interface"</code></dir>
 
-> [!NOTE] Title
->**Для вывода всех отдельных лекций** в `index`: 
+> [!NOTE] **Для вывода всех отдельных лекций** в `index`: 
 > - <span style="border: 1px solid black; padding: 2px;"><code>Shift + Command + F</code></span>
 > ```yaml
-path:"Obsidian_Java/Java/Learn Java/Учебный материал
+path:"Obsidian_Java/Java/Learn Java/Учебный материал"
 > ```
 >- **Скопировать результаты поиска**
 

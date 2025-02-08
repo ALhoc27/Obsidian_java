@@ -1,4 +1,4 @@
-[[Find (info)]]
+[[Info (find)]]
 <dir style="
     width: 100%; 
     border-collapse: collapse; 
