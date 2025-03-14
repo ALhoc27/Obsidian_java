@@ -201,6 +201,7 @@ public class Main {
 > [!WARNING]
 
 > [!DANGER]
+> 
 
 
 Добавляет визуальные акценты для привлечения внимания:
@@ -712,10 +713,112 @@ public int compareTo(Student other) {
 
 
 
+<span style="border: 1px solid black; padding: 2px;">Текст с рамкой</span>
+🟡 🟢 ⭕️
+❗️❌ ✅
+<div style="height: 4px; background: linear-gradient(to right, #4facfe, #00f2fe); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); margin: 20px 0;"></div>
+Удобен для средних объемов кода, **==можно==** вставить ==**в любую таблицу**== (*просто копируйте код*)
+<pre class="jcode">
+int day = 3;
+    
+switch (day) {
+▶︎   case 1 -> System.out.println("Понедельник");
+    case 2 -> System.out.println("Вторник");
+    case 3 -> System.out.println("Среда");
+    default -> System.out.println("Неизвестный день");
+}
+</pre>
+Выделить строку можно - ▷ ▶︎ ◇ ● ★ ⦿   (*2 пробела*)
+<hr>
+
+
+**Основные причины:**
+1. **31 — простое число**
+    - Простые числа уменьшают количество **коллизий** (когда разные объекты дают одинаковый хеш-код).
+2. **31 = 2⁵ - 1, что ускоряет вычисления**
+	- Умножение на 31 (`x * 31`) может быть заменено сдвигом:<span style="display: inline-block; padding: 0; margin-bottom: 5px;">&nbsp;</span>
+```java
+x * 31 == (x << 5) - x
+```
+
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <span style="font-size: 1.05em; font-weight: bold; margin: 0; line-height: 1.2; display: inline-block; margin-bottom: 10px;">Основные причины:</span><br>&nbsp;&nbsp;1. **31 — простое число**<br>&nbsp;&nbsp;    - Простые числа уменьшают количество **коллизий** (когда разные объекты дают одинаковый хеш-код).<br>&nbsp;&nbsp;2. **31 = 2⁵ - 1, что ускоряет вычисления**<br>&nbsp;&nbsp;	- Умножение на 31 (`x * 31`) может быть заменено сдвигом:<span style="display: inline-block; padding: 0; margin-bottom: 5px;">&nbsp;</span><span style="display: inline-block; padding: 0; margin-bottom: 5px;">&nbsp;</span><br><div class="code_md_tab"><br><code class="language-java language-java_td specific-override">x * 31 == (x << 5) - x<br></code><br></div><br> |
+
+| Ссылки                                                           | Подчеркнутый текст                                                                             | Цвет текста                                         |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| [Obsidian](http://obsidian.md)                                   |                                                                                                |                                                     |
+| [Подробнее](app://obsidian.md/index.html)                        |                                                                                                |                                                     |
+| <span class="link_color_black">**[[Сlass && Interface]]**</span> | <span class="underlines" style="text-decoration-color: black;">Подчёркнутый текст</span>       | <span style="color: #8a8a8a;">Цвет текста</span>    |
+| <span>**[[Сlass && Interface]]**</span>                          | <span class="underlines" style="text-decoration-color: #1592FF;">Подчёркнутый текст</span><br> | <span style="color: #1592FF">Цвет текста</span><br> |
+|                                                                  | <span class="underlines" style="text-decoration-color: #94bae1;">Подчёркнутый текст</span>     | <span style="color: #73a3d3">Цвет текста</span>     |
+| <span class="link_color2">**[[Сlass && Interface]]**</span>      | <span class="underlines" style="text-decoration-color: #5b5255;">Подчёркнутый текст</span>     | <span style="color: #5b5255;">Цвет текста</span>    |
+| <span class="link_color3">**[[Сlass && Interface]]**</span>      | <span class="underlines" style="text-decoration-color: #b94e48;">Подчёркнутый текст</span>     | <span style="color: #b94e48;;">Цвет текста</span>   |
+|                                                                  | <span class="underlines" style="text-decoration-color: #e38a54;">Подчёркнутый текст</span>     | <span style="color: #db8b6b">Цвет текста</span>     |
+| <span class="link_color4">**[[Сlass && Interface]]**</span>      | <span class="underlines" style="text-decoration-color: #506877;">Подчёркнутый текст</span>     | <span style="color: #506877;">Цвет текста</span>    |
+| <span class="link_color5">**[[Сlass && Interface]]**</span>      | <span class="underlines" style="text-decoration-color: #00693e;">Подчёркнутый текст</span>     | <span style="color: #00693e;">Цвет текста</span>    |
+|                                                                  | <span class="underlines" style="text-decoration-color: #8DB600;">Подчёркнутый текст</span>     | <span style="color: #8DB600;">Цвет текста</span>    |
+| <span class="link_color1">**[[Сlass && Interface]]**</span>      | <span class="underlines" style="text-decoration-color: #dab6e7;">Подчёркнутый текст</span>     | <span style="color: #c592d3">Цвет текста</span>     |
+| <span class="link_color0">**[[Сlass && Interface]]**</span>      | <span class="underlines" style="text-decoration-color: #e6d5a8;">Подчёркнутый текст</span>     | <span style="color: #d6c085">Цвет текста</span>     |
 
 
 
 
+| Ссылки                                                                                                   | Подчеркнутый текст                                                                             | Цвет текста                                         |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| [Obsidian](http://obsidian.md)                                                                           |                                                                                                |                                                     |
+| [Подробнее](app://obsidian.md/index.html)                                                                |                                                                                                |                                                     |
+| <span class="link_color_black">**[[Сlass && Interface]]**</span>                                         | <span class="underlines" style="text-decoration-color: black;">Подчёркнутый текст</span>       | <span style="color: #8a8a8a;">Цвет текста</span>    |
+| <span>**[[Сlass && Interface]]**</span>                                                                  | <span class="underlines" style="text-decoration-color: #1592FF;">Подчёркнутый текст</span><br> | <span style="color: #1592FF">Цвет текста</span><br> |
+|                                                                                                          | <span class="underlines" style="text-decoration-color: #94bae1;">Подчёркнутый текст</span>     | <span style="color: #73a3d3">Цвет текста</span>     |
+| <span class="link_color2">**[[Сlass && Interface]]**</span>                                              | <span class="underlines" style="text-decoration-color: #5b5255;">Подчёркнутый текст</span>     | <span style="color: #5b5255;">Цвет текста</span>    |
+| <span class="link_color3">**[[Сlass && Interface]]**</span>                                              | <span class="underlines" style="text-decoration-color: #b94e48;">Подчёркнутый текст</span>     | <span style="color: #b94e48;;">Цвет текста</span>   |
+|                                                                                                          | <span class="underlines" style="text-decoration-color: #e38a54;">Подчёркнутый текст</span>     | <span style="color: #db8b6b">Цвет текста</span>     |
+| <span class="link_color4">**[[Сlass && Interface]]**</span>                                              | <span class="underlines" style="text-decoration-color: #506877;">Подчёркнутый текст</span>     | <span style="color: #506877;">Цвет текста</span>    |
+| <span class="link_color5">**[[Сlass && Interface]]**</span>                                              | <span class="underlines" style="text-decoration-color: #00693e;">Подчёркнутый текст</span>     | <span style="color: #00693e;">Цвет текста</span>    |
+|                                                                                                          | <span class="underlines" style="text-decoration-color: #8DB600;">Подчёркнутый текст</span>     | <span style="color: #8DB600;">Цвет текста</span>    |
+| <span class="link_color1">**[[Сlass && Interface]]**</span>                                              | <span class="underlines" style="text-decoration-color: #dab6e7;">Подчёркнутый текст</span>     | <span style="color: #c592d3">Цвет текста</span>     |
+| <span class="link_color0">**[[Сlass && Interface]]**</span>                                              | <span class="underlines" style="text-decoration-color: #e6d5a8;">Подчёркнутый текст</span>     | <span style="color: #d6c085">Цвет текста</span>     |
+|                                                                                                          |                                                                                                |                                                     |
+| <pre class="tablecode" style="background-color: #D4EFEC; !important;">-128...127` (**256**) / _2⁸_</pre> |                                                                                                |                                                     |
+| <pre class="tablecode" style="background-color: #F1D6F5; !important;">-128...127` (**256**) / _2⁸_</pre> |                                                                                                |                                                     |
+| <pre class="tablecode" style="background-color: #D5E7F7; !important;">-128...127` (**256**) / _2⁸_</pre> |                                                                                                |                                                     |
+| <pre class="tablecode" style="background-color: #FDF3D7; !important;">-128...127` (**256**) / _2⁸_</pre> |                                                                                                |                                                     |
+| <pre class="tablecode" style="background-color: #DFE6ED; !important;">-128...127` (**256**) / _2⁸_</pre> |                                                                                                |                                                     |
+
+
+
+
+
+| Ссылки                                                                                                   | Подчеркнутый текст                                                                                                          | Цвет текста                                                                                                                                                                              |                                                                                                      |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Obsidian](http://obsidian.md)                                                                           |                                                                                                                             |                                                                                                                                                                                          |                                                                                                      |
+| [Подробнее](app://obsidian.md/index.html)                                                                |                                                                                                                             |                                                                                                                                                                                          |                                                                                                      |
+|                                                                                                          | <span class="link_color_black">**[[Сlass && Interface]]**</span>                                                            | <span class="underlines" style="text-decoration-color: black;">Подчёркнутый текст</span>                                                                                                 | <span style="color: #8a8a8a;">Цвет текста</span>                                                     |
+|                                                                                                          |                                                                                                                             | <span class="underlines" style="text-decoration-color: #1592FF;">Подчёркнутый текст</span>                                                                                               | <span style="color: #1592FF">Цвет текста</span>                                                      |
+|                                                                                                          | <span class="link_color3">**[[Сlass && Interface]]**</span>                                                                 | <span class="underlines" style="text-decoration-color: #b94e48;">Подчёркнутый текст</span>                                                                                               | <span style="color: #b94e48;;">Цвет текста</span>                                                    |
+|                                                                                                          |                                                                                                                             | <span class="underlines" style="text-decoration-color: #e38a54;">Подчёркнутый текст</span>                                                                                               | <span style="color: #db8b6b">Цвет текста</span>                                                      |
+| <pre class="tablecode" style="background-color: #D4EFEC; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color10">**[[Сlass && Interface]]**</span><br><span class="link_color5">**[[Сlass && Interface]]**</span> | <span class="underlines" style="text-decoration-color: #75a9a5;">Подчёркнутый текст</span><br><span class="underlines" style="text-decoration-color: #068450;">Подчёркнутый текст</span> | <span style="color: #75a9a5;">Цвет текста</span><br><span style="color: #068450;">Цвет текста</span> |
+| <pre class="tablecode" style="background-color: #F1D6F5; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color11">**[[Сlass && Interface]]**</span>                                                                | <span class="underlines" style="text-decoration-color: #ad80b7;">Подчёркнутый текст</span>                                                                                               | <span style="color: #ad80b7">Цвет текста</span>                                                      |
+| <pre class="tablecode" style="background-color: #D5E7F7; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color12">**[[Сlass && Interface]]**</span><br><span class="link_color4">**[[Сlass && Interface]]**</span> | <span class="underlines" style="text-decoration-color: #6babe6;">Подчёркнутый текст</span><br><span class="underlines" style="text-decoration-color: #506877;">Подчёркнутый текст</span> | <span style="color: #6babe6;">Цвет текста</span><br><span style="color: #506877;">Цвет текста</span> |
+| <pre class="tablecode" style="background-color: #FDF3D7; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color13">**[[Сlass && Interface]]**</span>                                                                | <span class="underlines" style="text-decoration-color: #d1b852;">Подчёркнутый текст</span>                                                                                               | <span style="color: #d1b852">Цвет текста</span>                                                      |
+| <pre class="tablecode" style="background-color: #DFE6ED; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color14">**[[Сlass && Interface]]**</span><br><span class="link_color2">**[[Сlass && Interface]]**</span> | <span class="underlines" style="text-decoration-color: #9c9ea0;">Подчёркнутый текст</span><br><span class="underlines" style="text-decoration-color: #5b5255;">Подчёркнутый текст</span> | <span style="color: #8f8f8f">Цвет текста</span><br><span style="color: #5b5255;">Цвет текста</span>  |
+
+
+
+| Ссылки                                                                                                   | Подчеркнутый текст                                                                                                           | Цвет текста                                                                                                                                                                              |                                                                                                      |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Obsidian](http://obsidian.md)                                                                           |                                                                                                                              |                                                                                                                                                                                          |                                                                                                      |
+| [Подробнее](app://obsidian.md/index.html)                                                                |                                                                                                                              |                                                                                                                                                                                          |                                                                                                      |
+| <pre class="tablecode" style="background-color: #D4EFEC; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color10">**[[Сlass && Interface]]**</span><br><span class="link_color5">**[[Сlass && Interface]]**</span>  | <span class="underlines" style="text-decoration-color: #75a9a5;">Подчёркнутый текст</span><br><span class="underlines" style="text-decoration-color: #068450;">Подчёркнутый текст</span> | <span style="color: #75a9a5;">Цвет текста</span><br><span style="color: #068450;">Цвет текста</span> |
+| <pre class="tablecode" style="background-color: #F1D6F5; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color11">**[[Сlass && Interface]]**</span><br><span class="link_color3">**[[Сlass && Interface]]**</span>  | <span class="underlines" style="text-decoration-color: #ad80b7;">Подчёркнутый текст</span><br><span class="underlines" style="text-decoration-color: #b94e48;">Подчёркнутый текст</span> | <span style="color: #ad80b7">Цвет текста</span><br><span style="color: #b94e48;;">Цвет текста</span> |
+| <pre class="tablecode" style="background-color: #D5E7F7; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color12">**[[Сlass && Interface]]**</span><br><span class="link_color4">**[[Сlass && Interface]]**</span>  | <span class="underlines" style="text-decoration-color: #6babe6;">Подчёркнутый текст</span><br><span class="underlines" style="text-decoration-color: #506877;">Подчёркнутый текст</span> | <span style="color: #6babe6;">Цвет текста</span><br><span style="color: #506877;">Цвет текста</span> |
+| <pre class="tablecode" style="background-color: #FDF3D7; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color13">**[[Сlass && Interface]]**</span><br><span class="link_color01">**[[Сlass && Interface]]**</span> | <span class="underlines" style="text-decoration-color: #d1b852;">Подчёркнутый текст</span><br><span class="underlines" style="text-decoration-color: #e38a54;">Подчёркнутый текст</span> | <span style="color: #d1b852">Цвет текста</span><br><span style="color: #db8b6b">Цвет текста</span>   |
+| <pre class="tablecode" style="background-color: #DFE6ED; !important;">-128...127` (**256**) / _2⁸_</pre> | <span class="link_color14">**[[Сlass && Interface]]**</span><br><span class="link_color2">**[[Сlass && Interface]]**</span>  | <span class="underlines" style="text-decoration-color: #9c9ea0;">Подчёркнутый текст</span><br><span class="underlines" style="text-decoration-color: #5b5255;">Подчёркнутый текст</span> | <span style="color: #8f8f8f">Цвет текста</span><br><span style="color: #5b5255;">Цвет текста</span>  |
+
+
+
+<span style="font-size: 1em; font-weight: 550; margin: 0; line-height: 1.2; display: inline-block; margin-bottom: 10px;"> Подробнее</span> <span style="border: 1px solid black; padding: 2px; line-height: 1.75;">#2</span>:<br/>
 
 [^200]:1
 [^201]:2
