@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "sasa"
             }
+          },
+          {
+            "id": "329ae90d41851c8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eeeeee.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "eeeeee"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,11 +228,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af28299c5e4040f3",
+  "active": "329ae90d41851c8b",
   "lastOpenFiles": [
-    "grgrgrg.md",
-    "sasa.md",
     "Нет дат в меркурии.md",
+    "eeeeee.md",
+    "sasa.md",
+    "git",
+    "nastya.md",
+    "grgrgrg.md",
     "Проблема с отправкой из УПП в контур диадок.md",
     "Добро пожаловать.md",
     "1C-Tavria_0x/Templates/templates_link.md.md",
@@ -239,8 +257,6 @@
     "1C-Tavria_0x/Templates/templates_md_Текст_с_рамкой.md.md",
     "1C-Tavria_0x/Templates/templates_md_Пробел.md.md",
     "1C-Tavria_0x/Templates/templates_md_Блок_оранжевый.md.md",
-    "1C-Tavria_0x/Templates/templates_md_h4.md.md",
-    "1C-Tavria_0x/Templates/templates_╨Ь╨╡╨╢╤Б╤В╤А╨╛╤З╨╜╤Л╨╕╠Ж_╨Ш╨╜╤В╨╡╤А╨▓╨░╨╗_╨Ю╤В╤Б╤В╤Г╨┐_Code.md.md",
     "1C-Tavria_0x/Templates",
     "1C-Tavria_0x/Cach/Pasted image 20250312180802.png",
     "1C-Tavria_0x/Cach",
