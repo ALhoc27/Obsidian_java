@@ -1,0 +1,234 @@
+.popover .markdown-embed.is-loaded {
+    width: 910px;
+    max-width: none !important; /* Снятие ограничения по ширине */
+    box-sizing: border-box; /* Учитываем отступы в ширине */
+    padding: 10px 3px 10px 3px !important; /* Устанавливаем отступы */
+    min-height: 380px;
+    max-height: 850px;
+}
+
+.popover {
+    z-index: 99;
+}
+
+.is-active {
+/*    z-index: 99; */
+}
+
+
+.hover-editor {
+    height: 850px !important;
+}
+
+
+.popover-content {
+    font-size: 13px;
+    max-height: none !important;
+}
+
+.markdown-embed {
+    font-size: 14px;
+}
+
+.jcode {
+    font-family: "Courier New", monospace; /* Моноширинный шрифт */
+    font-size: 12px; /* Небольшой шрифт */
+    line-height: 1.5; /* Удобный интервал между строками */
+     /* Светло-серый фон */
+    color: #333; /* Темный текст */
+    border: 1px solid black; /* Граница вокруг блока кода */
+    border-color: black;
+    border-radius: 5px; /* Слегка скругленные углы */
+    padding: 8px; /* Отступы внутри блока */
+    margin: 8px 0; /* Отступы от других элементов */
+    overflow-x: auto; /* Горизонтальная прокрутка, если строка слишком длинная */
+    white-space: pre-wrap; /* Сохранять пробелы и переносы строк */
+    font-weight: 500;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Плавные изменения при наведении */
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Лёгкая тень для акцента */
+    border-color: #b3d7ff; /* Голубоватая граница */
+}
+
+.markdown-preview-view tbody > tr > td > pre {
+    background-color: #e6efff; !important;
+}
+
+.jcode:hover {
+    background-color: #dce5f5;
+    border-color: #9a9db5; /* Голубоватая граница */
+    color: #284070; !important;
+}
+
+
+/* Изменение фона блоков кода (атом)*/ 
+.markdown-preview-view pre {
+    background-color: #f5f5f5; /* Серый фон */
+    border-radius: 5px; /* Сглаженные углы */
+    padding: 10px; /* Отступ внутри блока */
+}
+
+/* Изменение фона в редакторе (атом)*/
+.cm-s-obsidian pre.CodeMirror-line {
+    background-color: #f5f5f5; /* Серый фон */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Стиль для inline-кода */
+.markdown-preview-view code {
+    background-color: #e6e4e1; /* Светло-серый фон */
+    color: #333; /* Темный текст */
+    padding: 2px 4px; /* Отступы вокруг текста */
+    border-radius: 4px; /* Скругленные углы */
+    font-family: monospace; /* Шрифт для кода */
+    font-size: 0.85em; /* Размер текста чуть меньше обычного */
+}
+
+
+/* Подсветка синтаксиса Java для режима редактирования */
+
+/* Комментарии - пастельный голубой */
+.cm-s-obsidian .cm-comment {
+  color: #7f8c8d !important;
+  font-style: italic !important;
+}
+
+/* Ключевые слова - фиолетовый */
+.cm-s-obsidian .cm-keyword {
+  color: var(--purple) !important;
+}
+
+/* Классы и типы данных (например, String, Log, LocationService) - синий */
+.cm-s-obsidian .cm-class-name,
+.cm-s-obsidian .cm-type {
+  color: var(--blue) !important;  /* Яркий синий для классов и типов */
+}
+
+/* Функции - черный */
+.cm-s-obsidian .cm-function {
+  color: var(--text-normal) !important;
+}
+
+/* Строки - зеленый */
+.cm-s-obsidian .cm-string {
+  color: var(--green) !important;
+}
+
+/* Операторы, сущности и URL - бирюзовый */
+.cm-s-obsidian .cm-operator,
+.cm-s-obsidian .cm-entity,
+.cm-s-obsidian .cm-url {
+  color: var(--aqua) !important;
+}
+
+/* Пунктуация - светло-серый */
+.cm-s-obsidian .cm-punctuation {
+  color: var(--gray-2) !important;
+}
+
+/* Свойства, булевы значения, константы - оранжевый */
+.cm-s-obsidian .cm-property,
+.cm-s-obsidian .cm-boolean,
+.cm-s-obsidian .cm-number,
+.cm-s-obsidian .cm-constant,
+.cm-s-obsidian .cm-symbol {
+  color: var(--orange) !important;
+}
+
+/* Атрибуты и переменные - серый */
+.cm-s-obsidian .cm-attr-name,
+.cm-s-obsidian .cm-variable {
+  color: var(--gray-2) !important;
+}
+
+.language-java_td tbody > tr > td {
+    white-space: normal !important;
+}
+
+pre.language-java_td {
+    padding-top:0 !important;
+    padding-right:5px !important;
+    padding-bottom:0 !important;
+    padding-left:10px !important;
+}
+
+div.el-blockquote code {
+    background: #FAFAFA !important;
+}
+
+.link_color_black a {
+    color: black !important;
+}
+
+.link_color a {
+    color: #6e4e0f !important;
+}
+
+div :not(pre) > code.specific-override {
+    background: #EAEAEB !important;
+    white-space: pre-wrap !important;
+}
+
+pre {
+    white-space: pre-wrap !important; /* Сохраняет пробелы и переносит длинные строки */
+
+}
+pre code.specific-override {
+    white-space: pre-wrap !important; /* Наследует от <pre> */
+    display: block;
+}
+
+.code_md_tab {
+    line-height:0;
+    padding: 4px 8px; 
+    font-size: 0.9em !important; 
+    background: #EAEAEB; 
+    border: 10px solid black; 
+    border-radius: 5px;"
+}
+
+div.el-span > span.cm-line1 > span.cm-line {
+    margin-bottom: 0px !important;
+}
+
+.underlines {
+    text-decoration: underline;
+    text-decoration-thickness: 2px; /* Толщина линии */
+    text-underline-offset: 3px; /* Отступ от текста */
+}
+
+.no-padding-spans {
+    display: inline-block; /* Чтобы учитывать высоту текста */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    line-height: 1.5; /* Минимальная высота строки */
+}
+
+.el-p p {
+    margin-bottom: 6px !important; 
+}
+
+.el-ol ol {
+    margin-top: 6px !important; 
+}
+
+.link_color_black a {
+    color: #323025 !important;
+}
+
+.link_color5 a {
+    color: #00693e !important;
+}
+
+.link_color2 a {
+    color: #5b5255 !important;
+}
+
+.link_color3 a {
+    color: #b94e48 !important;
+}
+
+.link_color4 a {
+    color: #506877 !important;
+}
