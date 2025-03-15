@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Нет дат в меркурии.md",
+                "file": "yyyyy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Нет дат в меркурии"
+              "title": "yyyyy"
             }
           }
         ],
@@ -244,8 +244,9 @@
   },
   "active": "282f63fc91dd7333",
   "lastOpenFiles": [
-    "444444.md",
     "Нет дат в меркурии.md",
+    "yyyyy.md",
+    "444444.md",
     "sasa.md",
     "grgrgrg.md",
     "eeeeee.md",
@@ -270,7 +271,6 @@
     "1C-Tavria_0x/Templates/templates_TAB_2x_html.md.md",
     "1C-Tavria_0x/Templates/templates_TAB_2x(IMG).md.md",
     "1C-Tavria_0x/Templates/templates_md_Текст_с_рамкой.md.md",
-    "1C-Tavria_0x/Templates/templates_md_Пробел.md.md",
     "1C-Tavria_0x/Templates",
     "1C-Tavria_0x/Cach/Pasted image 20250312180802.png",
     "1C-Tavria_0x/Cach",
